@@ -6,7 +6,7 @@ const indexOf = function (array, target) {
   //array = [1], target = 1
   var result = -1;
 
-  
+
   each(array, function (item, index) {
     //item = 1
     if (item === target && result === -1) {
@@ -81,6 +81,7 @@ const reduce = function (collection, iterator, accumulator) {
   })
   return accumulator
 };
+
 
 module.exports = {
   filter,
